@@ -1,0 +1,15 @@
+# Python requirements for Garmin Data Retriever
+
+# HTTP requests
+requests>=2.31.0
+
+# Optional: For actual Garmin Connect API integration
+# Uncomment these when ready to use real Garmin Connect authentication
+# garth>=0.4.0
+# garminconnect>=0.2.0
+
+# Date/time utilities
+python-dateutil>=2.8.2
+
+# For development
+pytest>=7.4.0
